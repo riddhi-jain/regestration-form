@@ -1,0 +1,111 @@
+<!DOCTYPE html> 
+
+<html>
+
+<head>
+
+<title>regestartion layout</title>
+<style>
+
+     body, html {
+  margin: 30;}
+	   .bg{
+	   background-image:url("bgorange.jpg");
+	   background-repeat: no-repeat;
+	   background-position: center;
+	   height:100%;
+	   background size: cover;}
+</style>
+</head>
+
+<body topmargin=100 leftmargin=75>
+<div class="bg"></div>
+
+<form>
+
+    <fieldset style="width:90%;">
+
+  <legend>REGISTER YOURSELF</legend>
+
+  <!--input text type tag-->
+ 
+        <h1><b><u>Welcome to Programming!</u></b></h1>
+
+        <b>*First Name:</b><br>
+ 
+        <input type="text" name="firstname" value="">
+  <br/>
+
+        <b>*Last Name:</b>
+  <br>
+      
+  <input type="text" name="lastname" value="">
+ 
+   <br><hr><br> 
+
+  <!--input radio type tag--->
+
+  <b>*Gender:</b><br>
+
+  <input type="radio" name="gender" value="male" >Male<br/>
+
+  <input type="radio" name="gender" value="female">Female<br/>
+
+  <input type="radio" name="gender" value="other">other<br/><hr><br>
+ 
+ <!--checkbox type tag--->
+ 
+      <b>*Language selected:</b><br>
+  
+     <input type="checkbox" name="lang" value="java">Java<br>
+  
+     <input type="checkbox" name="lang" value="python">Python<br>
+  
+   <input type="checkbox" name="lang" value="cpp">C++<br>
+  
+   <input type="checkbox" name="lang" value="html5">HTML5<br>  
+
+    <br><hr><br>
+
+  <!--select tag-->
+  
+<b>*Currently a student in:</b>
+  
+    <select name="year">
+     
+    <option value="1">year 1</option>
+    
+    <option value="2">year 2</option>
+
+    <option value="3">year 3</option>
+    
+    <option value="4">year 4</option>
+    
+  </select>
+     
+ <br><hr><br>
+
+  <!--textarea-->
+  
+  <label style="display:block;"><b>*Any pre knowledge:</b></label>
+<br>
+
+  <textarea style="display:block;">Here</textarea>
+
+ <!--select multiple files tag-->
+<br><hr><br>
+
+ <b>*Upload latest photograph:</b><br><br>
+
+  select file<input type="file" name="img" multiple>
+<br/><br/>
+ 
+ <input type="submit" value="submit">
+
+
+</fieldset>
+</form>
+
+</body>
+
+</html>
